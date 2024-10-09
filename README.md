@@ -4,31 +4,7 @@ This project analyzes call center data to optimize performance metrics and ident
 
 ## Project Structure
 
-united_airlines_analysis/
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_loader.py
-│   ├── aht_analysis.py
-│   ├── self_service_analysis.py
-│   ├── call_patterns_analysis.py
-│   └── utils.py
-│
-├── data/
-│   ├── calls.csv
-│   ├── sentiment.csv
-│   ├── customer.csv
-│   ├── reasons.csv
-│   └── timestamps.csv
-│
-├── results/
-│   └── .gitkeep
-│
-├── requirements.txt
-├── config.py
-├── main.py
-└── README.md
-
+![image](https://github.com/user-attachments/assets/e3efddaa-4eae-4db7-b772-7a217bd71e57)
 
 ## Installation
 
@@ -66,20 +42,20 @@ source venv/bin/activate  On Windows: venv\Scripts\activate
 
 ## AHT Analysis:
 
--aht_analysis.xlsx
--aht_distributions.png
+-aht_analysis.xlsx <br>
+-aht_distributions.png <br>
 -high_volume_patterns.png
 
 ## Self-Service Analysis:
 
--self_service_analysis.xlsx
--recurring_issues.png
+-self_service_analysis.xlsx <br>
+-recurring_issues.png <br>
 -complexity_distribution.png
 
 ## Call Patterns Analysis:
 
-=call_patterns_analysis.xlsx
--temporal_patterns.png
+=call_patterns_analysis.xlsx <br>
+-temporal_patterns.png <br>
 -segment_patterns.png   
    
 
