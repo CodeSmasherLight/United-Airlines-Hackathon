@@ -27,18 +27,18 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
  - Ensure file names match those in config.py
  - Required files:
 
-   -- calls.csv
-   -- sentiment.csv
-   -- customer.csv
-   -- reasons.csv
+   -- calls.csv <br>
+   -- sentiment.csv <br>
+   -- customer.csv <br>
+   -- reasons.csv <br>
    -- timestamps.csv
 
 4. Run the analysis: ```python main.py```
    
 5. Check results:
 
-   -Analysis results will be saved in the results/ directory
-   -Excel files contain detailed metrics
+   -Analysis results will be saved in the results/ directory <br>
+   -Excel files contain detailed metrics <br>
    -PNG files contain visualizations
 
 # Output Files
@@ -60,5 +60,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
  -call_patterns_analysis.xlsx <br>
  -temporal_patterns.png <br>
  -segment_patterns.png   
-   
+
+<b> PS: Create a .gitignore file to exclude files and directories that should not be committed to GitHub, such as virtual environments (venv/), compiled Python files (__pycache__/), environment variable files (.env), and other temporary or system-specific files. I forgot to include this in my SS above. <b>
 
