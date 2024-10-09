@@ -12,23 +12,26 @@ This project analyzes call center data to optimize performance metrics and ident
 
 ```bash
 python -m venv venv
-source venv/bin/activate  On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-2. Install requirements: ```pip install -r requirements.txt```
+2. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. Prepare your data:
+4. Prepare your data:
 
 
-- Place your CSV files in the data/ directory
-- Ensure file names match those in config.py
-- Required files:
+ - Place your CSV files in the data/ directory
+ - Ensure file names match those in config.py
+ - Required files:
 
-   calls.csv
-   sentiment.csv
-   customer.csv
-   reasons.csv
-   timestamps.csv
+   -- calls.csv
+   -- sentiment.csv
+   -- customer.csv
+   -- reasons.csv
+   -- timestamps.csv
 
 4. Run the analysis: ```python main.py```
    
@@ -48,14 +51,14 @@ source venv/bin/activate  On Windows: venv\Scripts\activate
 
 ## Self-Service Analysis:
 
--self_service_analysis.xlsx <br>
--recurring_issues.png <br>
--complexity_distribution.png
+ -self_service_analysis.xlsx <br>
+ -recurring_issues.png <br>
+ -complexity_distribution.png
 
 ## Call Patterns Analysis:
 
-=call_patterns_analysis.xlsx <br>
--temporal_patterns.png <br>
--segment_patterns.png   
+ -call_patterns_analysis.xlsx <br>
+ -temporal_patterns.png <br>
+ -segment_patterns.png   
    
 
