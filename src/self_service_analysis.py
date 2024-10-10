@@ -42,7 +42,7 @@ class SelfServiceAnalyzer:
         )
         
         # Analyze complexity by call reason
-        return self.df.groupby(['primary_call_reason', 'call_complexity']).size().unstack()
+        return self.df.groupby(['primary_call_reason', 'call_complexity'], observed=False).size().unstack()
     
     def identify_self_service_candidates(self):
         """Identify issues that could be handled through self-service"""

@@ -104,7 +104,7 @@ class AHTAnalyzer:
         
         # AHT by call reason
         sns.boxplot(data=self.df, x='primary_call_reason', y='handle_time', ax=ax2)
-        ax2.set_xticklabels(ax2.get_xticklabels(), rotation=45)
+        ax2.tick_params(axis='x', rotation=45)
         ax2.set_title('Handle Time Distribution by Call Reason')
         
         plt.tight_layout()
