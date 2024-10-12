@@ -20,7 +20,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Prepare your data:
+3. Prepare your data:
 
 
  - Place your CSV files in the data/ directory
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 python main.py
 ```
    
-6. Check results:
+5. Check results:
 
    -Analysis results will be saved in the results/ directory <br>
    -Excel files contain detailed metrics <br>
