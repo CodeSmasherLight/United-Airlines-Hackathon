@@ -16,16 +16,16 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 2. Install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 4. Prepare your data:
 
 
  - Place your CSV files in the data/ directory
  - Ensure file names match those in config.py
- - Required files:
+ - Required files: ***(Files/Resources were provided by United Airlines)***
 
    -- calls.csv <br>
    -- sentiment.csv <br>
@@ -33,9 +33,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
    -- reasons.csv <br>
    -- timestamps.csv
 
-4. Run the analysis: ```python main.py```
+4. Run the analysis:
+```bash
+python main.py
+```
    
-5. Check results:
+6. Check results:
 
    -Analysis results will be saved in the results/ directory <br>
    -Excel files contain detailed metrics <br>
